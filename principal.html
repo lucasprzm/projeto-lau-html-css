@@ -4,18 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo-principal.css" />
     <title>Lau Cosméticos e Depilação</title>
   </head>
   <body>
     <header>
-      <!-- Deve conter logomarca, quem somos e contato -->
+      <!-- Deve conter logomarca, quem somos e contato (link para outro html) -->
+      <div>
+        <img
+          src="./logo-lau-2.png"
+          alt="Logomarca Lau Cosméticos e Depilação"
+        />
+      </div>
+      <ul>
+        <li>Quem Somos</li>
+        <li>Contato</li>
+      </ul>
     </header>
-    <main>
+    <div class="corpo">
+      <nav>
+        <div class="filtros">
+          <!-- Menu de filtragem -->
+          <dl>
+            <dt>Filtros de Produtos</dt>
+            <dd>Preço Maior para o Menor</dd>
+            <dd>Preço Menor para o Maior</dd>
+            <dd>Ordem Alfabética Z-A</dd>
+            <dd>Ordem Alfabética A-Z</dd>
+          </dl>
+        </div>
+      </nav>
+      <!-- <main class="produtos"> -->
       <!-- Deve conter os produtos e serviços -->
-    </main>
-    <nav>
-      <!-- Menu de filtragem -->
-    </nav>
-    <footer></footer>
+      <main>
+        <div class="produtos">
+          <div>
+            <img src="./malbec-desodorante-colonia-100-ml.png" alt="Malbec" />
+            <p>Preço: R$ 135,90</p>
+          </div>
+          <div>
+            <img src="./sabonete-natura.jpg" alt="Sabonete" />
+            <p>Preço: R$ 16,70</p>
+          </div>
+          <div>
+            <img src="./depilacao.jpg" alt="Depilação" />
+            <p>Preço: R$ 40</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>Lucas Prazeres de Matos</footer>
   </body>
 </html>
