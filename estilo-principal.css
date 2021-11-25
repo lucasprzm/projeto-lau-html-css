@@ -26,6 +26,7 @@ header li {
 header div img {
   width: 100%;
   height: 450px;
+  object-fit: none;
 }
 .corpo {
   display: flex;
