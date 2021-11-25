@@ -1,4 +1,8 @@
-Vitrine virtual de produtos de cosméticos e serviços de depilação.
-Projeto desenvolvido durante o treinamento da Gama Academy para Dev Full Stack, utilizando somente HTML e CSS.
+- Loja Lau Depilação e Cosméticos
 
-Primeiro commit: criação do repositório e esboço da página inicial do site.
+  - A loja foi desenvolvida para o projeto hands on da Gama Academy.
+  - A loja é uma loja de venda de cosméticos e serviços de depilação.
+
+- Tecnologias
+  - CSS3
+  - HTML5
