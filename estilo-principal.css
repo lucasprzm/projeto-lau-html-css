@@ -43,6 +43,7 @@ main div {
   margin: 15px;
   text-align: center;
   background-color: #fff;
+  padding-bottom: 10px;
 }
 main div img {
   width: 200px;
@@ -50,6 +51,7 @@ main div img {
 }
 main div p {
   font-size: 16px;
+  padding: 5px;
 }
 footer {
   display: flex;
@@ -65,4 +67,9 @@ main h4 {
 main a {
   text-decoration: none;
   color: black;
+}
+button {
+  padding: 5px;
+  background: #f65e58;
+  color: #fff;
 }
