@@ -80,6 +80,9 @@ button {
   height: 300px;
 }
 .descricao {
+  padding: 15px;
+}
+.formas {
   padding: 10px;
 }
 #pagamento {
