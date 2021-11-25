@@ -59,3 +59,10 @@ main h1 {
   font-size: 24px;
   padding: 10px;
 }
+main h4 {
+  padding: 20px;
+}
+main a {
+  text-decoration: none;
+  color: black;
+}
