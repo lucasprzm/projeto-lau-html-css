@@ -18,7 +18,7 @@ a {
 }
 header ul a {
   color: white;
-  font-size: 26px;
+  font-size: 24px;
 }
 header li {
   padding: 10px;
@@ -51,12 +51,6 @@ main div img {
 }
 main div p {
   font-size: 16px;
-}
-dl {
-  margin: 10px;
-}
-dd {
-  margin-inline-start: 40px;
 }
 footer {
   display: flex;
