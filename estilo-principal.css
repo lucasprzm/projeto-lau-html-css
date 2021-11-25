@@ -6,12 +6,9 @@
 header > div,
 ul {
   display: flex;
-
   justify-content: space-around;
   color: white;
-}
-header {
-  background-image: url(./imagens/logo-lau-2.png);
+  background: #f65e58;
 }
 ul {
   list-style-type: none;
