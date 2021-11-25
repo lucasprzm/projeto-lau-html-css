@@ -55,6 +55,7 @@ main div p {
 footer {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 main h1 {
   font-size: 24px;
@@ -101,5 +102,52 @@ button {
   .produto img {
     width: 250px;
     height: 250px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  header li {
+    padding: 5px;
+  }
+  header div img {
+    object-fit: contain;
+    height: auto;
+  }
+  header ul a,
+  main h1,
+  #pagamento,
+  button,
+  footer,
+  #quem-somos,
+  main h4 {
+    font-size: 11px;
+  }
+  main {
+    width: 100%;
+  }
+  main div {
+    margin: 10px;
+    padding-bottom: 5px;
+  }
+  main div img {
+    height: 100px;
+    width: 100px;
+  }
+  main div p {
+    font-size: 10px;
+    padding: 2.5px;
+  }
+  .produto img {
+    width: 150px;
+    height: 150px;
+  }
+  #pagamento {
+    padding: 5px;
+  }
+  button {
+    padding: 2.5px;
+  }
+  #quem-somos {
+    padding: 10px;
+    text-align: justify;
   }
 }
